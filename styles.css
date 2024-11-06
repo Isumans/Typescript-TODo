@@ -65,3 +65,22 @@ button{
     background-color: #4A628A;
     color: var(--primary-color);
 }
+ul{
+    width: 100%;
+    
+    margin-top:8px ;
+    list-style: none;
+}
+li{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+li span{
+    width: 43%;
+}
+ul button{
+    width:fit-content;
+}
